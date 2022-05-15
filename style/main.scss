@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    font-size: 12px;
+}
+// #### Text
+
+$Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+$Soft-red: hsl(14, 88%, 65%);
+// #### Gradient
+// Background gradient:
+$Soft-violet: hsl(273, 75%, 66%);
+$Soft-blue: hsl(240, 73%, 65%);
+// ### Neutral
+// #### Text
+$Very-dark-grayish-blue: hsl(237, 12%, 33%);
+$Dark-grayish-blue: hsl(240, 6%, 50%);
+// #### Dividers
+$Light-grayish-blue: hsl(240, 5%, 91%);
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-height: 100%;
+    overflow: auto;
+}
+body{
+    height: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient($Soft-violet, $Soft-blue);
+}
+.show-off{
+    display: none;
+}
+.show-on{
+    display: block;
+}
+.flex-col{
+    display: flex;
+    flex-direction: col;
+    justify-content: center;
+    align-items: center;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    height: 100%;
+}
+.card{
+    background-color: white;
+    width: 330px;
+}
+.question-btn:hover{
+    cursor: pointer;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
