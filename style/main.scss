@@ -25,6 +25,7 @@ $Light-grayish-blue: hsl(240, 5%, 91%);
 html{
     height: 100%;
     overflow: auto;
+    background: linear-gradient($Soft-violet, $Soft-blue);
 }
 body{
     height: 100%;
@@ -34,7 +35,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient($Soft-violet, $Soft-blue);
+    
     overflow: auto;
 }
 
