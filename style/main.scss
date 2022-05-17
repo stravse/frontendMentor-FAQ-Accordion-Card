@@ -67,8 +67,8 @@ body{
     display: block;
     position: absolute;
     z-index: 3;
-    bottom: 560px;
-    left: 40px;
+    top: -40px;
+    left: -130px;
 }
 .card{
     position: relative;
@@ -158,9 +158,6 @@ body{
         transform: rotate(180deg);
     }
 }
-.move-box{
-    bottom: 580px;
-}
 
 .divider{
     
@@ -180,12 +177,11 @@ body{
     }
     .box-image{
         height: 184px;
-        bottom: 180px;
-        left: -90px;
+        top: -50px;
+        left: -110px;
     }
     .move-box{
-        left: -130px;
-        bottom: 180px;
+        left: -150px;
     }
     .card{
         width: 900px;
@@ -193,7 +189,6 @@ body{
         flex-direction: row;
         top: 0;
         justify-content: space-between;
-        overflow: hidden;
         &-image{
             &-main{
                 width: 450px;
